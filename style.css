@@ -87,7 +87,7 @@ nav a {
 /* Banner Section */
 .banner {
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group13\(1\(1\).png');
     width: 100%;
     max-width: 1170px;
     height: 500px;
@@ -456,7 +456,7 @@ nav a {
 }
 
 .news-img {
-    background: url('../Images/Rectangle\ 8\ \(1\).png');
+    background: url('./Images/Rectangle8\(1\).png');
     width: 672px;
     height: 422px;
     position: relative;
@@ -539,10 +539,14 @@ nav a {
 
 .media {
     display: flex;
-    padding-top: 20px;
+    padding-top: 30px;
     margin-left: 580px;
     gap: 24px;
     margin-bottom: 48px;
+}
+.social{
+    height: 30px;
+    width: 30px;
 }
 
 .line {
